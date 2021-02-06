@@ -49,7 +49,7 @@ void setup() {
 }
 
 void loop() { 
-mqttClient.connect("rafaelhonesto");
+mqttClient.connect("VitorGomes");
 
     estado_sensor = digitalRead(pino2);
 
